@@ -1,0 +1,59 @@
+{
+  "name": "roblox",
+  "servePort": 34872,
+  "emitLegacyScripts": false,
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$path": "src/shared"
+    },
+    "ReplicatedFirst": {
+      "$path": "src/replicatedfirst"
+    },
+    "ServerStorage": {
+      "$path": "src/serverstorage"
+    },
+    "Teams": {
+      "$path": "src/teams"
+    },
+    "Chat": {
+      "$path": "src/chat"
+    },
+    "BadgeService": {
+      "$path": "src/badges"
+    },
+    "ServerScriptService": {
+      "$path": "src/server"
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$path": "src/client"
+      },
+      "StarterCharacterScripts": {
+        "$path": "src/character"
+      }
+    },
+    "StarterGui": {
+      "$path": "src/ui"
+    },
+    "StarterPack": {
+      "$path": "src/starterpack"
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "Gravity": 67.3
+      },
+      "Terrain": {
+        "$path": "Terrain.rbxm"
+      }
+    },
+    "Lighting": {
+      "$path": "src/lighting"
+    },
+    "SoundService": {
+      "$path": "src/soundservice"
+    }
+  }
+}
